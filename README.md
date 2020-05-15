@@ -21,6 +21,7 @@ This framework uses a number of open source projects to work properly:
 ```sh
 $ mvn clean verify -Dtest="RunCucumberTest" test -Denv=[environment] -Dlocation=[location] "-Dcucumber.options=--tags \"[tagName]\"" 
 ```
+Example: mvn clean verify -Dtest="RunCucumberTest"
 
 
 **For API Test**
