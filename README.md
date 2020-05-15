@@ -19,7 +19,7 @@ This framework uses a number of open source projects to work properly:
 
 **For Cucumber Test**
 ```sh
-$ mvn clean verify -Dtest="irongate.RunCucumberTest" test -Denv=[environment] -Dlocation=[location] "-Dcucumber.options=--tags \"[tagName]\"" 
+$ mvn clean verify -Dtest="RunCucumberTest" test -Denv=[environment] -Dlocation=[location] "-Dcucumber.options=--tags \"[tagName]\"" 
 ```
 
 
